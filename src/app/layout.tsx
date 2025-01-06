@@ -5,7 +5,7 @@ import { primaryFont } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://audiscribe.vercel.app'),
+    metadataBase: new URL('https://umarsaeed.vercel.app'),
     title: { 
         template: '%s | Umar Saeed', 
         default: 'Umar Saeed' 
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         ],
     },
     openGraph: {
-        title: 'Audiscribe',
+        title: 'Umar Saeed',
         description: "A portfolio website designed to showcase my skills, experiences, and accomplishments. Here, you'll find a collection of my real-world projects and insights into my professional.",
         url: 'https://umarsaeed.vercel.app',
         siteName: 'Umar Saeed',
