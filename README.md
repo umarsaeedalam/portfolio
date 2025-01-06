@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+A portfolio website designed to showcase my skills, experiences, and accomplishments. Here, you'll find a collection of my real-world projects and insights into my professional.
 
-First, run the development server:
+## 📸 Snippet
 
+![Home page overview](/public/og-image.png)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18.0 or higher
+- npm or yarn package manager
+- A modern web browser
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/umarsaeedalam/portfolio.git
+```
+2. Navigate to the project directory:
+```bash
+cd portfolio
+```
+3. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+4. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+5. Open http://localhost:3000 in your browser.
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Next.js** - React framework for production
+- **React** - UI library
+- **TypeScript** - Static typing
+- **Tailwind CSS** - Utility-first CSS framework
+- **Shadcn/ui** - UI component library
+- **NextUi** - UI component library
+
+
+## 🎨 Theme Configuration
+
+The application uses a custom theme with the following color palette:
+
+```css
+primary: {
+  '50': '#ffffff',
+  '100': '#d6d6d8',
+  '200': '#acacb1',
+  '300': '#838389',
+  '400': '#595962',
+  '500': '#595962',
+  '600': '#43434a',
+  '700': '#2d2d31',
+  '800': '#161619',
+  '900': '#000000',
+}
+
+secondary: {
+  '50': '#ffffff',
+  '100': '#fefefe',
+  '200': '#fdfdfd',
+  '300': '#fcfcfc',
+  '400': '#fbfbfb',
+  '500': '#fbfbfb',
+  '600': '#bcbcbc',
+  '700': '#7e7e7e',
+  '800': '#3f3f3f',
+  '900': '#000000',   
+}
+
+accent: {
+  '50': '#ffffff',
+  '100': '#fdcdcc',
+  '200': '#fc9b9a',
+  '300': '#fa6867',
+  '400': '#f83634',
+  '500': '#f83634',
+  '600': '#ba2927',
+  '700': '#7c1b1a',
+  '800': '#3e0e0d',
+  '900': '#000000',
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📝 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+portfolio/
+├── src/
+│   ├── app/
+│       ├──/about
+│       ├──/experiences
+│       ├──/projects                             
+│   ├── components/                     
+│   │   ├── feature/                                   
+│   │   ├── layout/                      
+│   │   └── ui/                                         
+│   ├── fonts/                         
+│   ├── lib/                                                      
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📧 Contact
 
-## Learn More
+If you have any questions, feel free to reach out:
 
-To learn more about Next.js, take a look at the following resources:
+- Email: umarsaeedalam@gmail.com
+- LinkedIn: www.linkedin.com/in/umarsaeedalam
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
