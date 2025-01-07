@@ -26,7 +26,7 @@ function MobileNavbar() {
             <Drawer isOpen={isOpen} onOpenChange={onOpenChange} placement="top" backdrop="transparent" hideCloseButton classNames={styles}>
                 <DrawerContent>
                     {(onClose) => (
-                        <nav className="text-secondary-900 font-bold text-17 uppercase tracking-wider py-4">
+                        <nav className="text-secondary-900 font-bold text-17 tracking-wider py-4">
                             <ul className="flex flex-col items-center gap-3">
                                 <li>
                                     <Link href="/" onClick={onClose} className={`${(pathname === '/') ? 'text-accent-500 underline underline-offset-4 focus-visible:outline-secondary-500' : 'hover:text-accent-500 focus-visible:outline-accent-500 hover:underline-offset-4 transition-all duration-200 ease-in-out'} hover:cursor-pointer outline-none p-1 rounded-md`}>Home</Link>
