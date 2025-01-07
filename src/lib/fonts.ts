@@ -10,12 +10,12 @@ export const primaryFont = localFont({
     display: 'swap'
 })
 
-export const accentFont = localFont({
-    src: "../fonts/maestro/Maestro W01 G/Maestro W01 G.ttf",
-    display: 'swap'
-})
-
 // export const accentFont = localFont({
-//     src: "../fonts/handwritten/cac/cac_champagne.ttf",
+//     src: "../fonts/maestro/Maestro W01 G/Maestro W01 G.ttf",
 //     display: 'swap'
 // })
+
+export const accentFont = localFont({
+    src: "../fonts/serif/nebos/Nebos.otf",
+    display: 'swap'
+})
