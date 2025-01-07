@@ -6,7 +6,7 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { usePathname } from "next/navigation";
 
 const styles = {
-    base: 'bg-primary-700 backdrop-filter backdrop-blur-sm bg-opacity-75'
+    base: 'bg-white backdrop-filter backdrop-blur-sm bg-opacity-20'
 }
 
 // const styles = {
