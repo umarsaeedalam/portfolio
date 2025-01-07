@@ -31,7 +31,7 @@ function NavBar() {
                 </li>
                  
                 <li className="ml-auto">
-                    <a href="/Umar Saeed - Resume.pdf" download>
+                    <a href="/Resume - Umar Saeed.pdf" download>
                         <button className="text-xl max-[1000px]:text-19 max-[600px]:text-lg max-[450px]:text-17 font-bold tracking-wide bg-accent-500 hover:bg-accent-600 py-[6px] max-[600px]:py-1 px-4 max-[600px]:px-[14px] rounded-xl outline-none focus-visible:outline-secondary-500 transition-all duration-300 ease-in-out hover:cursor-pointer active:scale-95">Resume</button>
                     </a>
                 </li>  
