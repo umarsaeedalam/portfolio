@@ -7,7 +7,7 @@ function HomePage() {
             <section className="flex justify-center items-center h-[calc(100svh-64px)] max-[1000px]:h-[calc(100svh-60px)]">
                 <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-3 max-[1000px]:gap-2">
-                        <p className="text-primary-500 text-4xl max-[1000px]:text-3xl max-[650px]:text-2xl max-[500px]:text-22">Hi I&apos;m</p>
+                        <p className="text-secondary-700 text-4xl max-[1000px]:text-3xl max-[650px]:text-2xl max-[500px]:text-22">Hi I&apos;m</p>
 
                         <div className="grow h-1 max-[650px]:h-[0.2rem] max-[500px]:h-[0.125rem] bg-accent-500"></div>
                     </div>
