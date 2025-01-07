@@ -12,9 +12,9 @@ function HomePage() {
                         <div className="grow h-1 max-[800px]:h-[0.2rem] max-[625px]:h-[0.125rem] bg-accent-500"></div>
                     </div>
 
-                    <h1 className={`${accentFont.className} text-14xl max-[1000px]:text-12xl max-[800px]:text-10xl max-[625px]:text-9xl max-[550px]:text-[88px] tracking-tight leading-[115px] max-[1000px]:leading-[95px] max-[800px]:leading-[75px] max-[625px]:leading-[60px] max-[550px]:leading-[35px] text-secondary-500`}>Umar Saeed</h1>
+                    <h1 className={`${accentFont.className} text-14xl max-[1000px]:text-12xl max-[800px]:text-10xl max-[625px]:text-9xl max-[550px]:text-[88px] tracking-tight leading-[115px] max-[1000px]:leading-[95px] max-[800px]:leading-[75px] max-[625px]:leading-[75px] max-[550px]:leading-[50px] text-secondary-500`}>Umar Saeed</h1>
 
-                    <h2 className="font-bold text-[54px] max-[1000px]:text-[46px] max-[800px]:text-4xl max-[625px]:text-3xl max-[550px]:text-2xl tracking-tight mt-5 max-[1000px]:mt-4 max-[800px]:mt-6 max-[550px]:mt-4 text-accent-500 self-end">Next.Js Developer</h2>
+                    <h2 className="font-bold text-[54px] max-[1000px]:text-[46px] max-[800px]:text-4xl max-[625px]:text-3xl max-[550px]:text-2xl tracking-tight mt-5 max-[1000px]:mt-4 max-[800px]:mt-6 max-[550px]:mt-0 text-accent-500 self-end">Next.Js Developer</h2>
                 </div>
             </section>
 
