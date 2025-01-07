@@ -8,7 +8,7 @@ function NavBar() {
     const pathname = usePathname()
 
     return (
-        <nav className="text-secondary-500 text-lg max-[1000px]:text-17 max-[600px]:text-base uppercase tracking-wide flex justify-center items-center">
+        <nav className="text-secondary-500 text-lg max-[1000px]:text-17 max-[600px]:text-base font-bold uppercase tracking-wider flex justify-center items-center">
             <ul className="flex max-w-[1700px] w-full gap-10 max-[1000px]:gap-7 max-[600px]:gap-4 items-center pt-6 max-[1000px]:pt-5 max-[600px]:pt-4 max-[450px]:pt-3 px-10 max-[1000px]:px-8 max-[600px]:px-6 max-[450px]:px-5">
                 <li className="max-[450px]:hidden rounded-xl">
                     <Link href="/" className={`${(pathname === '/') ? 'text-accent-500 underline underline-offset-4 focus-visible:outline-secondary-500' : 'hover:text-accent-500 focus-visible:outline-accent-500 hover:underline-offset-4 transition-all duration-300 ease-in-out'} hover:cursor-pointer outline-none p-1 rounded-md`}>Home</Link>
