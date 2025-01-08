@@ -23,7 +23,7 @@ function ProjectsPage() {
                                 </a>
                             </div>
 
-                            <a href='https://audiscribe.vercel.app' target="_blank" rel="noopener noreferrer" className="text-accent-500 hover:text-accent-600 font-bold text-[25px] max-[1000px]:text-[23px] max-[650px]:text-[21px] transition-all ease-in-out duration-300">Audiscribe</a>
+                            <a href='https://audiscribe.vercel.app' target="_blank" rel="noopener noreferrer" className="text-accent-500 tracking-wide hover:text-accent-600 font-bold text-[25px] max-[1000px]:text-[23px] max-[650px]:text-[21px] transition-all ease-in-out duration-300">Audiscribe</a>
                         </div>
                         
                         <p className="text-secondary-500 tracking-wide text-xl max-[1000px]:text-19 max-[650px]:text-lg max-[450px]:text-17">
@@ -33,15 +33,15 @@ function ProjectsPage() {
                         </p>
 
                         <div className="flex gap-1 tracking-wide flex-wrap">
-                            <Badge className="bg-[#333333] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#333333]">nextjs</Badge>
+                            <Badge className="bg-[#333333] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#333333]">nextjs</Badge>
 
-                            <Badge className="bg-[#3178C6] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#3178C6]">typesript</Badge>
+                            <Badge className="bg-[#3178C6] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#3178C6]">typesript</Badge>
 
-                            <Badge className="bg-[#38BDF8] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#38BDF8]">tailwind</Badge>
+                            <Badge className="bg-[#38BDF8] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#38BDF8]">tailwind</Badge>
 
-                            <Badge className="bg-[#805AD5] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#805AD5]">assemblyai</Badge>
+                            <Badge className="bg-[#805AD5] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#805AD5]">assemblyai</Badge>
 
-                            <Badge className="bg-[#000000] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#000000]">vercel</Badge>
+                            <Badge className="bg-[#000000] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#000000]">vercel</Badge>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ function ProjectsPage() {
                                 </a>
                             </div>
 
-                            <a href='https://cashflowdojo.vercel.app' target="_blank" rel="noopener noreferrer" className="text-accent-500 hover:text-accent-600 font-bold text-[25px] max-[1000px]:text-[23px] max-[650px]:text-[21px] transition-all ease-in-out duration-300">Cashflow Dojo</a>
+                            <a href='https://cashflowdojo.vercel.app' target="_blank" rel="noopener noreferrer" className="text-accent-500 tracking-wide hover:text-accent-600 font-bold text-[25px] max-[1000px]:text-[23px] max-[650px]:text-[21px] transition-all ease-in-out duration-300">Cashflow Dojo</a>
                         </div>
                         
                         <p className="text-secondary-500 tracking-wide text-xl max-[1000px]:text-19 max-[650px]:text-lg max-[450px]:text-17">
@@ -63,17 +63,17 @@ function ProjectsPage() {
                         </p>
 
                         <div className="flex gap-1 tracking-wide flex-wrap">
-                            <Badge className="bg-[#333333] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#333333]">nextjs</Badge>
+                            <Badge className="bg-[#333333] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#333333]">nextjs</Badge>
 
-                            <Badge className="bg-[#3178C6] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#3178C6]">typesript</Badge>
+                            <Badge className="bg-[#3178C6] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#3178C6]">typesript</Badge>
 
-                            <Badge className="bg-[#38BDF8] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#38BDF8]">tailwind</Badge>
+                            <Badge className="bg-[#38BDF8] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#38BDF8]">tailwind</Badge>
 
-                            <Badge className="bg-[#F29111] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#F29111]">mysql</Badge>
+                            <Badge className="bg-[#F29111] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#F29111]">mysql</Badge>
 
-                            <Badge className="bg-[#00DC82] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#00DC82]">authjs</Badge>
+                            <Badge className="bg-[#00DC82] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#00DC82]">authjs</Badge>
 
-                            <Badge className="bg-[#000000] text-base max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#000000]">vercel</Badge>
+                            <Badge className="bg-[#000000] text-base tracking-wide max-[1000px]:text-15 max-[650px]:text-[14px] rounded-xl hover:bg-[#000000]">vercel</Badge>
                         </div>
                     </div>
                 </div>
