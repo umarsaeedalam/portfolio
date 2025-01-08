@@ -15,7 +15,7 @@ function ProjectsPage() {
                 <h1 className="text-accent-500 font-bold text-6xl max-[1000px]:text-5xl max-[650px]:text-4xl tracking-tight text-center">My Work</h1>
 
                 <div className="mt-10 max-[1000px]:mt-9 max-[650px]:mt-8">
-                    <div className="pb-8 max-[1000px]:pb-[30px] max-[650px]:pb-7 border-b-[1px] flex flex-col gap-5 max-[1000px]:gap-[18px] max-[650px]:gap-4">
+                    <div className="pb-8 max-[1000px]:pb-[30px] max-[650px]:pb-7 border-b-[1px] flex flex-col gap-5 max-[1000px]:gap-[18px] max-[650px]:gap-4 max-[450px]:gap-3">
                         <div className="flex items-center gap-3 max-[1000px]:gap-[11px] max-[650px]:gap-[10px]">
                             <div className="w-11 max-[1000px]:w-[42px] max-[650px]:w-10 max-[450px]:w-[38px]">
                                 <a href='https://audiscribe.vercel.app' target="_blank" rel="noopener noreferrer">
@@ -45,7 +45,7 @@ function ProjectsPage() {
                         </div>
                     </div>
 
-                    <div className="py-8 max-[1000px]:py-[30px] max-[650px]:pb-7 border-b-[1px] flex flex-col gap-5 max-[1000px]:gap-[18px] max-[650px]:gap-4">
+                    <div className="py-8 max-[1000px]:py-[30px] max-[650px]:pb-7 border-b-[1px] flex flex-col gap-5 max-[1000px]:gap-[18px] max-[650px]:gap-4 max-[450px]:gap-3">
                         <div className="flex items-center gap-3 max-[1000px]:gap-[11px] max-[650px]:gap-[10px]">
                             <div className="w-11 max-[1000px]:w-[42px] max-[650px]:w-10 max-[450px]:w-[38px]">
                                 <a href='https://cashflowdojo.vercel.app' target="_blank" rel="noopener noreferrer">
