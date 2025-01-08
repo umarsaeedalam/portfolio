@@ -6,11 +6,11 @@ export const metadata: Metadata = {
 
 function AboutPage() {
     return (
-        <section className="flex justify-center items-center mt-10 max-[1000px]:mt-9 max-[600px]:mt-8 max-[450px]:mt-7 pb-28 max-[1000px]:pb-24 max-[600px]:pb-20 max-[450px]:pb-16">
-            <div className="max-w-6xl text-21 max-[1000px]:text-19 max-[600px]:text-lg tracking-wide px-10 max-[1000px]:px-8 max-[600px]:px-6 max-[450px]:px-5">
-                <h1 className="text-accent-500 text-7xl max-[1000px]:text-6xl max-[600px]:text-5xl tracking-tight text-center">My Story</h1>
+        <section className="flex justify-center items-center mt-12 max-[1000px]:mt-11 max-[600px]:mt-10 max-[450px]:mt-9 pb-28 max-[1000px]:pb-24 max-[600px]:pb-20 max-[450px]:pb-16">
+            <div className="max-w-6xl text-xl max-[1000px]:text-19 max-[600px]:text-lg max-[450px]:text-17 px-10 max-[1000px]:px-8 max-[600px]:px-6 max-[450px]:px-5">
+                <h1 className="text-accent-500 font-bold text-6xl max-[1000px]:text-5xl max-[600px]:text-4xl text-center">My Story</h1>
 
-                <div className="tracking-normal flex flex-col gap-10 max-[1000px]:gap-8 max-[600px]:gap-6 max-[450px]:gap-5 mt-10 max-[1000px]:mt-8 max-[600px]:mt-6">
+                <div className="tracking-wide flex flex-col gap-10 max-[1000px]:gap-8 max-[600px]:gap-6 max-[450px]:gap-5 mt-10 max-[1000px]:mt-9 max-[600px]:mt-8">
                     <p>
                         How do I begin summarizing myself within a paragraph or two? Hmm, I&apos;m not sure where to start, there&apos;s so much to say and 
                         simply too much to fit in the word count. So, let&apos;s instead focus on something more specific, something that my 
