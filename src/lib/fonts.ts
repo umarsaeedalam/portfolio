@@ -16,6 +16,6 @@ export const primaryFont = localFont({
 // })
 
 export const accentFont = localFont({
-    src: "../fonts/serif/nebos/Nebos.otf",
+    src: "../fonts/NewFonts/aaleyah/Aaleyah_PersonalUseOnly.otf",
     display: 'swap'
 })
