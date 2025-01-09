@@ -2,7 +2,7 @@ import Image from "next/image";
 import type { Metadata } from 'next'
 import audiscribeLogo from "../../../public/audiscribe-logo.png"
 import cashflowdojoLogo from "../../../public/cashflowdojo-logo.png"
-import { Badge } from "@/components/ui/badge"
+import { Badge } from "@/components/ui/shadcn/badge"
 
 export const metadata: Metadata = {
     title: 'Projects',
