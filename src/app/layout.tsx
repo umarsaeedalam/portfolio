@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { NextUIProvider } from "@nextui-org/react";
-import NavBar from "@/components/layout/navbar";
+// import NavBar from "@/components/layout/navbar";
 import { primaryFont } from "@/lib/fonts";
 import "./globals.css";
 
@@ -54,7 +54,7 @@ export default function RootLayout({ children }: Readonly<{children: React.React
         <html lang="en">
             <body className={`antialiased bg-custom-gradient-4 min-h-dvh ${primaryFont.className} text-secondary-500`}>
                 <NextUIProvider>
-                    <NavBar />
+                    {/* <NavBar /> */}
 
                     {children}
                 </NextUIProvider>
