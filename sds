@@ -1,0 +1,6 @@
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+user.email=umarsaeedalam@gmail.com
+user.name=Umar Saeed
