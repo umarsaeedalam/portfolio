@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { RiCustomerService2Fill } from "react-icons/ri";
-import { FaClipboardCheck } from "react-icons/fa";
+import { FaClipboardCheck, FaLaptopCode } from "react-icons/fa";
 import { GiOpenBook } from "react-icons/gi";
 
 export const metadata: Metadata = {
@@ -17,6 +17,50 @@ function ExperiencePage() {
                     <div className="absolute left-1/2 max-[675px]:left-0 transform -translate-x-1/2 h-[92%] max-[675px]:h-[96%] w-[0.25px] bg-primary-500"></div>
                     
                     <div className="relative tracking-wide pt-8 max-[675px]:pt-0 flex flex-col gap-12 max-[1000px]:gap-10 max-[675px]:gap-8">
+                        {/* React Developer */}
+                        <div className="flex max-[675px]:hidden">
+                            <div className="w-1/2 pr-11 max-[1000px]:pr-9 text-right flex flex-col gap-1">
+                                <h3 className="text-accent-300 text-xl max-[1000px]:text-18 font-semibold tracking-wide">Brumbyte</h3>
+
+                                <p className="text-secondary-500 text-19 max-[1000px]:text-17 tracking-wide">
+                                    Led front-end engineering and Supabase integration for the flagship product, doubling feature delivery speed. 
+                                    Translated complex business requirements into scalable technical solutions using Next.js, while orchestrating UI/UX development 
+                                    to craft intuitive interfaces and seamless experiences.
+                                </p>
+                            </div>
+                            
+                            <div className="absolute left-1/2 transform -translate-x-1/2 bg-accent-500 p-[10px] rounded-full">
+                                <FaLaptopCode className="text-2xl max-[1000px]:text-23" />
+                            </div>
+                            
+                            <div className="w-1/2 pl-11 max-[1000px]:pl-9 flex flex-col gap-0">
+                                <h3 className="text-accent-500 text-2xl max-[1000px]:text-22 font-semibold tracking-wide">React Developer</h3>
+
+                                <p className="text-primary-300 text-xl max-[1000px]:text-18 tracking-tight">Oct 2024 - Present</p>
+                            </div>
+                        </div>
+
+                        {/* Mobile - React Developer */}
+                        <div className="relative flex min-[676px]:hidden">
+                            <div className="absolute left-0 transform -translate-x-1/2 bg-accent-500 p-[9px] rounded-full">
+                                <FaLaptopCode className="text-21"/>
+                            </div>
+                            
+                            <div className="w-1/2 pl-9 flex flex-col gap-1 grow">
+                                <h3 className="text-accent-500 text-xl font-semibold tracking-wide">React Developer</h3>
+
+                                <p className="text-primary-300 text-lg tracking-tight">Oct 2024 - Present</p>
+
+                                <h3 className="text-accent-300 text-lg font-semibold mt-2 tracking-wide">Brumbyte</h3>
+
+                                <p className="text-secondary-500 text-17 tracking-wide">
+                                    Led front-end engineering and Supabase integration for the flagship product, doubling feature delivery speed. 
+                                    Translated complex business requirements into scalable technical solutions using Next.js, while orchestrating UI/UX development 
+                                    to craft intuitive interfaces and seamless experiences.
+                                </p>
+                            </div>
+                        </div>
+
                         {/* Senior Scope Writer */}
                         <div className="flex max-[675px]:hidden">
                             <div className="w-1/2 pr-11 max-[1000px]:pr-9 text-right flex flex-col gap-0">
